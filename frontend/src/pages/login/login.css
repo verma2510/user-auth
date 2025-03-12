@@ -1,0 +1,89 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(239, 233, 219);
+}
+
+.loginContent{
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.loginTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.loginWrapper {
+  /* background-color: rgb(252, 103, 61); */
+  /* background-color: rgb(250, 220, 179); */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.propTextfield {
+  display: flex;
+  flex-direction: column;
+}
+
+.propTextfield input {
+  font-size: 16px;
+  border-radius: 5px;
+  outline: 1px solid rgb(6, 6, 6);
+  border: none; 
+}
+
+.propTextfield p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.loginButton {
+  margin-top: 20px;
+  display: flex;
+  justify-self: center;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(119, 165, 135);
+}
+
+.loginButton:hover {
+  background-color: rgb(73, 111, 81);
+}
+
+.signupMessage {
+  margin-top: 20px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.signupButton {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  margin-left: 5px;
+  background-color: rgb(142, 142, 203);
+}
+
+.signupButton a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.signupButton:hover {
+  background-color: rgb(70, 70, 112);
+}
